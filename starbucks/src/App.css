@@ -1,0 +1,156 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+.Home{
+  background-image: url("https://i.ibb.co/yd0PNQ9/ccfgd.png");
+  height: 649px;
+}
+ul{
+  display: flex;
+  gap: 80px;
+  list-style: none;
+  padding-top: 30px;
+  padding-left: 50px;
+  color:rgba(240, 248, 255, 0.63);
+}
+ul :hover{
+  color: rgb(247, 245, 245);
+}
+li{
+  padding-top: 15px;
+  font-family: 'Gideon Roman'; 
+}
+.homeflxe{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 100px;
+  padding-left: 10%;
+}
+.hometxt{
+  width: 500px;
+  padding-top: 170px;
+  color: rgb(247, 245, 245)
+}
+.ph{
+  padding-top: 30px;
+  color: rgba(247, 245, 245, 0.623)
+}
+.h11{
+  font-family: 'Dancing Script';
+font-size: 50px;
+}
+.babysStarbucks{
+  height: 250px;
+    width: 45vw;
+    /* background-color: rgb(248, 244, 236); */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top-right-radius: 40px ;
+    padding-right: 55px;
+    gap: 30px;
+    padding-bottom: 60px;
+}
+.flavourimg{
+  position: relative;
+  bottom: 90px;
+  width: 130px;
+  filter: drop-shadow(30px 1px 4px #04040f54);
+
+}
+.imghome:hover{
+  transform: rotate(5deg);
+	transition: transform 1.0s ease all;
+}
+.imghome{
+  filter: drop-shadow(30px 1px 4px #04040f54);
+}
+.Menu{
+  text-align: center;
+  color: rgba(35, 61, 24, 0.856);
+  font-family: 'Gideon Roman'; 
+  margin: 20px;
+
+}
+.menuflex{
+  display: flex;
+  gap: 200px;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.w22:hover{
+  transform: rotate(5deg);
+	transition: transform 1.0s ease all;
+}
+.w22{
+  filter: drop-shadow(30px 1px 4px #04040f54);
+  padding-top: 30px;
+}
+.grid{
+  padding-right: 80px;
+  width: 600px;
+  padding-bottom: 30px;
+}
+.menuflex2{
+  display: flex;
+  text-align: start;
+  gap: 50px;
+  padding-top: 10px;
+}
+.more{
+  /* background-color: rgba(0, 100, 0, 0.356); */
+ padding-top: 40px;
+}
+.divider-2{
+  height: 35vh;
+  background-image: url("https://github.com/Ghadah-Ahmed/Project/blob/main/images/divider-2.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.89);
+}
+.divider-2-div{
+  background: rgb(18, 116, 72);
+  background: linear-gradient(90deg, rgba(18, 116, 72,1) 65%, rgba(18, 116, 72,0.3295693277310925) 100%);
+  height: 35vh;
+}
+.divider-2-div div{
+  height: 35vh;
+  text-align: center;
+  background-image: url("https://github.com/Ghadah-Ahmed/Project/blob/main/images/asfalt-light.png?raw=true");
+  background-size: contain;
+  padding: 0 45% 0% 15%;
+}
+.divider-2-div h1{
+  padding-top: 7%;
+  font-size: 30px;
+}
+.divider-2-div hr{
+  height: 0%;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.89) 50%, transparent 50%), 
+              linear-gradient(0deg, rgba(255, 255, 255, 0.89) 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-y;
+  background-size: 16px 4px, 4px 16px;
+  background-position: 0% 0%, 0% 100%;
+  padding: 1px;
+  animation: dash 30s linear infinite;
+}
+.divider-2-div p{
+  color: rgba(255, 255, 255, 0.65);
+}
+.divider-2-div button{
+  padding: 2% 6%;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 0.89);
+  border: 1px solid rgba(255, 255, 255, 0.89);
+  margin-top: 2%;
+}
+.divider-2-div button:hover{
+  border-color: black;
+  color: black;
+}
