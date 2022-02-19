@@ -2,6 +2,8 @@ import React from 'react'
 import Nav from './Nav'
 import Menu from './Menu'
 import More from './More'
+import Menu2 from './Menu2'
+import Footer from './Footer'
 export default function Home() {
   return (
     <div className='Home'>
@@ -24,7 +26,8 @@ export default function Home() {
         </div>
         <Menu />
         <More/>
-        {/* <Menu2/> */}
+        <Menu2/>
+        <Footer/>
         </div>
   )
 }

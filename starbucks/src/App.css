@@ -1,6 +1,12 @@
 *{
   padding: 0%;
   margin: 0%;
+  font-family: 'Gideon Roman'; 
+}
+.link{
+  color:rgba(240, 248, 255, 0.61);
+  /* list-style: none; */
+  text-decoration: none;
 }
 .Home{
   background-image: url("https://i.ibb.co/yd0PNQ9/ccfgd.png");
@@ -153,4 +159,76 @@ font-size: 50px;
 .divider-2-div button:hover{
   border-color: black;
   color: black;
+}
+.second-section-div div{
+  width: 30vw;
+}
+.second-section-container{
+  margin-right: 20px;
+}
+
+.second-section{
+  height: 95vh;
+  background-color: rgb(248, 244, 236);
+}
+
+.second-section h1{
+  text-align: center;
+  padding-top: 7%;
+}
+.second-section h4{
+  margin: 0;
+  margin-top: 10px;
+}
+.second-section p{
+  margin-top: 5px;
+}
+.second-section-div{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.icons-2nd{
+  height: 60px;
+  width: 60px;
+  margin: 0 5%;
+  transform: rotate(90deg);
+}
+
+.menu2{
+  text-align: center;
+  padding-top: 10%;
+  font-size: small;
+  /* margin: 15%; */
+  padding-bottom: 40px;
+}
+.rrrrrrrrrrry{
+  text-align: start;
+}
+.header{
+  padding-bottom: 50px;
+}
+.footer{
+  background-image: url("https://github.com/Ghadah-Ahmed/Project/blob/main/images/chalk.jpeg?raw=true");
+}
+.footer img{
+  padding-top: 4%;
+  padding-left: 42%;
+}
+.fotter111{
+  color:aliceblue;
+  padding-top: 5%;
+  text-align: center;
+ padding-bottom: 80px;
+}
+.youli{
+  padding-left: 33%;
+}
+.youlicon{
+  padding-left: 41%;
+}
+html{
+  scroll-behavior: smooth;
 }
