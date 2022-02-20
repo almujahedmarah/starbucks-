@@ -5,13 +5,12 @@ import Cart from './comp/Cart';
 function App() {
   return (
     <div className="App">
-      {/* <Home/> */}
-
-      <Routes>
+      <Home/>
+   
+      {/* <Routes>
      <Route exact="true" path="/" element={<Home />}></Route>
-     {/* <Route path="/About" element={<About />}></Route> */}
      <Route path="/Cart" element={<Cart />}></Route>
-        </Routes>
+        </Routes> */}
     </div>
   );
 }
